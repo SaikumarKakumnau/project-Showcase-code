@@ -1,0 +1,84 @@
+.projects-container {
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-left: 60px;
+  padding-top: 50px;
+  width: 100%;
+}
+
+.select-element {
+  width: 25%;
+  height: 30px;
+  border: 1px solid #cbd5e1;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+}
+
+.loader-container {
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.projects-list-container {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding-left: 0px;
+  margin-top: 50px;
+}
+
+.project-item {
+  width: 20%;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  box-shadow: 0px 0px 3px 3px #e2e8f0;
+  background-color: #ffffff;
+  border-radius: 10px;
+  border: none;
+}
+
+.project-icon {
+  width: 100%;
+}
+
+.project-name {
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: #475569;
+  font-weight: 500;
+  padding: 15px;
+}
+
+.failure-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+
+.failure-image {
+  width: 50%;
+}
+
+.failure-heading {
+  font-size: 40px;
+  color: #e2e8f0;
+  font-family: 'Roboto';
+  font-weight: 600;
+}
+
+.failure-desc {
+  font-size: 20px;
+  color: #e6e9ec;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
